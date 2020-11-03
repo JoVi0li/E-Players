@@ -166,7 +166,7 @@ img{
 .jogos-aovivo, .jogos-embreve{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 1.875em;
+    font-size: 1.575em;
 }
 .jogos-aovivo::after{
     content:'';
@@ -195,6 +195,136 @@ img{
 }
 .time2{
     margin-right: 0.5em;
+}
+.cards{
+    width: 100%;
+    height: 57.5em;
+    background-color: #1e1c21;
+    display: flex;
+}
+.cards a{
+    text-decoration: none;
+}
+.cards-position{
+    width: 100%;
+    max-width: 78.125em;
+    height: 57.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+.cards-center{
+    width: 100%;
+    max-width: 56.25em;
+    height: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.notice{
+    max-width: 14.68em;
+    width: 100%;
+    height: 22.81em;
+    background-color: var(--background);
+    background: linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+    box-shadow: 1px 1px 20px 4px #000000;
+}
+.notice h3{
+    text-transform: uppercase;
+    font-size: 1.125em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-left: 0.8em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    max-width: 13em;
+}
+.notice p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: justify;
+    margin: auto;
+    width: 100%;
+    max-width: 13em;
+}
+.aside{
+    width:100%;
+    max-width: 16em;
+    height: 46.875em;
+    background-color: #000;
+    background: linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+    box-shadow: 1px 1px 20px 4px #000000;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.next img{
+    width: 100%;
+    max-width: 3.5em;
+    height: 3.5em;
+}
+.next p {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+.next h4{
+    font-size: 1.5em;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    width: 100%;
+    max-width: 15em;
+    text-transform: uppercase;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+}
+.rodape img{
+    width: 100%;
+    max-width: 15em;
+    height: 2em;
+}
+.links-uteis{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.email{
+    color: white;
+}
+.email li{
+    color: white;
+    list-style: none;
+}
+.cadastro{
+    display: flex;
 }
 
 @media screen and (max-width: 74.93em){
