@@ -42,6 +42,9 @@ img{
     max-width: 21.18em;
     width: 95%;
 }
+.btnMenu{
+    display: none;
+}
 .menu{
     width: 100%;
     max-width: 50em;
@@ -523,15 +526,27 @@ img{
     .links a {
         font-size: 0.8em;
     }
+    
 
 
 }
 
 @media screen and (max-width: 47.93em){
+    .menu a {
+        font-size: 0.7em;
+    }
+    .banner-text h1{
+        font-size: 2.3em;
+    }
+    .banner-text p {
+        font-size: 0.9em;
+    }
+    .banner-text a{
+        font-size: 1em;
+    }
     .cards-position{
         display: block;
     }
-
     .aside{
         display: flex;
         height: 10em;
@@ -544,9 +559,80 @@ img{
     .none-2{
         display: block;
     }
+    .jogos img{
+        max-width:  7em;
+    }
+    .about-position img{
+        max-width: 17em;
+    }
+    .about-text h2{
+        font-size: 1.5em;
+    }
+    .about-text p{
+        font-size: 0.8em;
+    }
+    .partida img{
+        max-width: 2.5em;
+    }
+    .jogos-aovivo, .jogos-embreve{
+        font-size: 1.4em;
+    }
+    .newslatter input[type="email"] {
+        width: 5em;
+        height: 2em;
+        font-size: 1em;
+    }
+    .newslatter input[type="submit"] {
+        width: 5em;
+        height: 2em;
+        font-size: 1em;
+    }
+    .newslatter h2{
+        font-size: 0.42em;
+    }
+    .siga-nos{
+        font-size: 0.75em;
+    }
+    .siga-nos h2{
+        font-size: 1.5em;
+    }
+    .siga-nos img{
+        max-width: 3em;
+        height: 1.5em;
+    }
+    .links a{
+        font-size: 1em;
+    }
+    .links h2{
+        font-size: 1.5em;
+    }
+    .logo-rodape{
+        max-width: 5em;
+    }
+    .btnMenu{
+        display: block;
+    }
+    #meusLinks{
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        display: none; 
+    }
+    
 
 }
-
+@media screen and (max-width: 43.75em){
+    .none-3{
+        display: none;
+    }
+}
 @media screen and (max-width: 35.93em){
-   
+   .banner-text h1{
+       font-size: 2.1em;
+   }
+   .banner-text p{
+       font-size: 0.7em;
+   }
 }

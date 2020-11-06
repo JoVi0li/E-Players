@@ -17,13 +17,16 @@
                 <img src="img/logo.svg" alt="Logo E-Players">
             </a>
             <nav class="menu">
-                <ul>
+                <ul id="meusLinks">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="#">Campeonatos</a></li>
                     <li><a href="#">Resultados</a></li>
                     <li><a href="#">Notícias</a></li>
                     <li><a href="#">Login/Cadastro</a></li>
                 </ul>
+                <a class="btnMenu" onclick="meuMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
                 <a href="#" id="menu-bars">
                     <i class="fas fa-bars"></i>
                 </a>
@@ -110,7 +113,7 @@
                             <p>SK</p>
                         </div>
                     </div>
-                    <div class="partida">
+                    <div class="partida none">
                         <div class="time1">
                             <p>SK</p>
                             <img src="img/SK 1.png" alt="Logo do SK">
@@ -163,7 +166,7 @@
                                 modi recusandae dolore! Tempora, repellat.</p>
                         </a>
                     </div>
-                    <div class="notice">
+                    <div class="notice none-3">
                         <a href="#">
                             <img src="Img/T1 1.png" alt="">
                             <h3>Título Da Notícia</h3>
@@ -172,7 +175,7 @@
                                 modi recusandae dolore! Tempora, repellat.</p>
                         </a>
                     </div>
-                    <div class="notice">
+                    <div class="notice none-3">
                         <a href="#">
                             <img src="img/T1 1.png" alt="">
                             <h3>Título Da Notícia</h3>
@@ -259,7 +262,7 @@
                     <li><a href="#">Mande-nos uma mensagem</a></li>
                 </ul>
             </div>
-            <nav class="links">
+            <nav class="links none">
                 <h2>Páginas</h2>
                 <ul>
                     <li><a href="#">Início</a></li>
@@ -272,7 +275,7 @@
         </div>
         <img class="logo-rodape" src="img/logo.svg" alt="Logo E-Players">
         <div class="sociais">
-            <div class="newslatter">
+            <div class="newslatter none">
                 <h2>Faça parte do nosso clan, receba notícias e promoções!</h2>
                 <form action="#">
                     <input type="email" name="email" placeholder="E-MAIL">
@@ -287,8 +290,16 @@
             </div>
         </div>
     </footer>
-    
-
+    <script>
+        function meuMenu() {
+          var ulDoMenu = document.getElementById("meusLinks");
+          if (ulDoMenu.style.display === "flex") {
+            ulDoMenu.style.display = "none";
+          } else {
+            ulDoMenu.style.display = "flex";
+          }
+        }
+        </script>
 </body>
 
 </html>
