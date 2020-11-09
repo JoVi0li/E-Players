@@ -52,6 +52,14 @@ img{
     align-items: center;
     justify-content: space-between;
 }
+#meusLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnMenu{
+    display: none;
+}
 .menu a{
     color:#fff;
     text-decoration: none;
@@ -61,9 +69,6 @@ img{
 }
 .menu a:hover{
     background-color: var(--red);
-}
-#menu-bars{
-    display: none;
 }
 .banner{
     width: 100%;
@@ -528,6 +533,16 @@ img{
 }
 
 @media screen and (max-width: 47.93em){
+    .btnMenu{
+        display: block;
+    
+    }
+    #meusLinks{
+        display: none;
+    }
+    .none-3{
+        display: none;
+    }
     .cards-position{
         display: block;
     }
@@ -544,9 +559,60 @@ img{
     .none-2{
         display: block;
     }
+    .banner-text h1{
+        font-size: 2.34em;
+    }
+    .banner-text p{
+        font-size: 0.9em;
+    }
+    .banner-text a{
+        font-size: 1.3em;
+    }
+    .jogos img{
+        max-width: 5em;
+    }
+    .about-text{
+        position: absolute;
+        width: 75%;
+    }
+    .about-text p{
+        font-size: 1.1em;
+    }
+    .about-position img{
+        width: 30em;
+    }
+    .siga-nos{
+        align-items: flex-end;
+        margin-top: 7em;
+    }
+    .links a{
+        font-size: 1em;
+    }
+    
+
 
 }
 
 @media screen and (max-width: 35.93em){
-   
+    .none-4{
+        display: none;
+    }
+    .banner-text h1{
+        font-size: 1.4em;
+    }
+    .banner-text a{
+        font-size: 1em;
+    }
+    .about-text p{
+        font-size: 0.9em;
+    }
+    .about-position img{
+        width: 20em;
+    }
+    .jogos-aovivo, .jogos-embreve{
+        font-size: 0.7em;
+    }
+    .siga-nos{
+        margin-top: 12em;
+    }
 }
